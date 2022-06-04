@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     operator = {"+": add, "-": sub, "*": mul, "/": div}
-    from calculator import add, sub, mul, div
+    from calculator_1 import add, sub, mul, div
     from sys import argv, exit
 
     if len(argv) - 1 != 3:
