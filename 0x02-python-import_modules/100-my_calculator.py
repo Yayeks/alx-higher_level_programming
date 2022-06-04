@@ -13,5 +13,5 @@ if __name__ == "__main__":
             exit 1
         else:
             a = int(argv[1])
-            b = int(argv[2])
+            b = int(argv[3])
             print("{} {} {} = {}".format(a, argv[2], b, operator[argv[2]](a, b)))
